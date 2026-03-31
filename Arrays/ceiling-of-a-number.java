@@ -1,3 +1,12 @@
+Find the smallest number ≥ x in a sorted array.
+🔹 Idea
+If arr[mid] >= x → possible answer → move left
+Else → move right
+🔹 Approach
+Use binary search
+Store potential answer in ans
+Keep minimizing it
+🔹 Code
 class Solution {
     public int findCeil(int[] arr, int x) {
         int s = 0;
@@ -17,3 +26,5 @@ class Solution {
         return ans;
     }
 }  
+⏱ Time: O(log n)
+📦 Space: O(1)
