@@ -7,7 +7,7 @@ class Solution {
 
         while(low<=high){
             int mid = low+(high-low)/2;
-            long Th=0;
+            long Th=0 ;
             for(int p:piles){
                 Th+=(p+mid-1)/mid;  
             }
