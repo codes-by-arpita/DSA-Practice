@@ -1,3 +1,4 @@
+package GFG.Segregate0sAnd1s;
 class Solution {
     void segregate0and1(int[] arr) {
         // code here
