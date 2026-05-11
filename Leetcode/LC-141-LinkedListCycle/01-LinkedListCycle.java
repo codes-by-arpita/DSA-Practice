@@ -6,7 +6,7 @@ class ListNode {
           next = null;
       }
 }
-public class Solution {
+class Solution {
     public boolean hasCycle(ListNode head) {
         ListNode fast=head;
         ListNode slow=head;
