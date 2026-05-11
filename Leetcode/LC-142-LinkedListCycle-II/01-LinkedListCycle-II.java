@@ -7,7 +7,7 @@ class ListNode {
           next = null;
       }
 }
-public class Solution {
+class Solution {
     public ListNode detectCycle(ListNode head) {
         ListNode slow=head;
         ListNode fast=head;
@@ -27,4 +27,4 @@ public class Solution {
         }
         return null;
     }
-} 
+}
