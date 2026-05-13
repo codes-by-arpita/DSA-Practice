@@ -5,12 +5,13 @@ class Solution {
             high = Math.max(high,i);
         }
 
-        while(low<=high){
+        while (low<=high){
             int mid = low+(high-low)/2;
             long Th=0 ;
             for(int p:piles){
                 Th+=(p+mid-1)/mid;  
             }
+            
             if(Th<=h){
                 high=mid-1;
             }else{
