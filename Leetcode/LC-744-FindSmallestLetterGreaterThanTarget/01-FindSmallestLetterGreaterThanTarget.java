@@ -9,6 +9,6 @@ class Solution {
                 s=mid+1;
             }
         }
-        return letters[s & letters.length];
+        return letters[s % letters.length];
     }
 }
