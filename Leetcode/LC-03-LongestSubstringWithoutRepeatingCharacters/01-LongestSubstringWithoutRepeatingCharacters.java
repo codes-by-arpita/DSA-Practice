@@ -1,5 +1,4 @@
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         Set<Character> set=new HashSet<>();
