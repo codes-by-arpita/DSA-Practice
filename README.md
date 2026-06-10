@@ -14,4 +14,4 @@ A structured collection of Data Structures and Algorithms solutions in Java and 
 - [Visualgo](https://visualgo.net)
 
 ---
-Solutions are my own learning notes — not optimised for competitive programming.
+These solutions are my own learning notes — not optimised for competitive programming.
