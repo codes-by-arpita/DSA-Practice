@@ -1,4 +1,4 @@
-# A. Line Trip — Explanation
+# A. Line Trip — Explanation:
 
 You are driving on a straight road:
 
