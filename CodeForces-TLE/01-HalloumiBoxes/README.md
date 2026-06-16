@@ -67,7 +67,7 @@ That means:
 distance from last station to x
 ```
 
-must be traveled **twice**.
+must be traveled **twice**!
 
 ---
 
