@@ -15,6 +15,7 @@ class Solution {
             }
             if(left<right){
                 int temp=arr[left];
+                
                 arr[left]=arr[right];
                 arr[right]=temp;
                 
