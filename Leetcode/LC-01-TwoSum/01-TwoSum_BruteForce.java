@@ -5,6 +5,7 @@ Approach: Brute Force
 Time Complexity: O(n^2)
 Space Complexity: O(1)
 
+
 Idea:
 Check every pair of numbers.
 If nums[i] + nums[j] == target, return indices.
