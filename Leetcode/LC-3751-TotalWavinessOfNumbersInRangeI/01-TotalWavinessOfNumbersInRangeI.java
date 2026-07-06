@@ -7,6 +7,7 @@ class Solution {
                 if(no.charAt(j)>no.charAt(j-1)&&no.charAt(j)>no.charAt(j+1))count++;
                 if(no.charAt(j)<no.charAt(j-1)&&no.charAt(j)<no.charAt(j+1))count++;
             }
-        }return count;
+        }
+        return count;
     }
 }
